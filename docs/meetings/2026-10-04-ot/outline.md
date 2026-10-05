@@ -84,9 +84,6 @@ Drawing with LLMs 11위 · 금메달
 BirdCLEF, NeuroGolf, ClimSim 등
 다른 분야의 대회에도 참여했습니다.
 
-[이미지: Kaggle 대회 기록: AIMO2 6위 금메달, Drawing with LLMs 11위 금메달, BirdCLEF 및 NeuroGolf 은메달, ClimSim 동메달](assets/builder-kaggle-medals.png)
-Kaggle 대회 기록
-
 ### 발표자 노트
 
 - 큐빅에서 AI 리서처로 일하고 있고, 전자공학 박사입니다. 관심 분야는 이미지 생성과 편집이며, 이전에는 수학 LLM post-training을 연구한 경험이 있습니다.
@@ -163,7 +160,7 @@ MBTI, 취미 등
 - 사용자가 제공한 S13 러너 온보딩 공지는 2026년 10월 8일 목요일 오후 9시, Discord 음성 채널 Room-GH입니다. 우리 OT의 Room-YL과 장소가 다르다는 점을 짧게 안내합니다.
 - 오늘은 커뮤니티를 가볍게 소개하고, 운영 방식과 시즌을 알차게 보내는 방법 등 자세한 내용은 10월 8일 러너 온보딩 참여를 독려합니다. 공지의 12주 안내와 LeanAgent 자체 프로젝트 계획은 별개로 설명합니다.
 
-자료: 사용자가 제공한 공식 장표 [Identity](assets/pseudolab-identity.png), [Golden Circle](assets/pseudolab-golden-circle.png), [우리의 두 가지 문화](assets/pseudolab-culture.png) 및 S13 러너 온보딩 공지.
+자료: 사용자가 제공한 공식 소개 장표 및 S13 러너 온보딩 공지를 바탕으로 요약했습니다. 제공받은 장표 원본 이미지는 저장소에 포함하지 않습니다.
 
 ## 06. LeanAgent를 기획한 이유
 
