@@ -2,6 +2,11 @@
 
 프로젝트의 모임 자료, 운영 합의와 실험 문서를 정리합니다.
 
+## 연구 자료
+
+- [논문 목록 · 37편](research/papers.md): Lean&Mathlib / Autoformalization / Automated Theorem Proving / Verifier-guided Agent 관련 태그.
+- [주제별 자료 공유](research/README.md): 주제별 1–2명의 조사·발표자료와 예제를 모으는 폴더.
+
 ## 모임 자료
 
 - [2026-10-04 · 13기 1차 미팅 / OT](meetings/2026-10-04-ot/README.md)
