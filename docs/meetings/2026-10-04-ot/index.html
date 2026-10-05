@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="가짜연구소 13기 LeanAgent 첫 모임. 프로젝트 소개, Lean 실습, 대회와 협업 논의.">
+  <title>LeanAgent · 13기 첫 모임</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="slides.js" defer></script>
+  <script src="deck.js" defer></script>
+</head>
+<body>
+  <header class="toolbar">
+    <a class="brand" href="#slide-1" aria-label="첫 슬라이드로 이동">LeanAgent<span>첫 모임</span></a>
+    <nav aria-label="발표 도구">
+      <button id="contents" type="button" aria-haspopup="dialog">목차 <kbd>T</kbd></button>
+      <button id="notes-toggle" type="button" aria-pressed="false" aria-controls="notes">발표자 노트 <kbd>N</kbd></button>
+      <button id="fullscreen" type="button">전체화면 <kbd>F</kbd></button>
+      <button id="print" type="button">PDF / 인쇄</button>
+    </nav>
+  </header>
+  <main class="workspace">
+    <div class="viewport" id="viewport">
+      <div class="frame" id="frame"><div class="stage" id="stage" aria-label="OT 발표 슬라이드"></div></div>
+    </div>
+    <aside id="notes" class="notes" hidden aria-label="발표자 노트">
+      <div class="notes-header"><h2>발표자 노트</h2><button type="button" id="notes-close" aria-label="발표자 노트 닫기">닫기</button></div>
+      <p id="notes-time" class="notes-time"></p>
+      <h3 id="notes-title"></h3><div id="notes-body"></div>
+      <div class="notes-reminder">화면 공유 시 노트도 보입니다. 공유 전 <kbd>N</kbd>으로 닫아주세요.</div>
+    </aside>
+  </main>
+  <footer class="controls">
+    <div class="progress-track" aria-hidden="true"><div id="progress"></div></div>
+    <span id="section-label"></span>
+    <div class="pager"><button type="button" id="previous" aria-label="이전 슬라이드">←</button><output id="counter" aria-live="polite"></output><button type="button" id="next" aria-label="다음 슬라이드">→</button></div>
+    <span class="keyboard-help">← → 이동 <span>·</span> Home / End 처음 / 끝</span>
+  </footer>
+  <dialog id="toc" aria-labelledby="toc-title">
+    <div class="dialog-header"><div><h2 id="toc-title">오늘의 이야기</h2><p id="toc-subtitle"></p></div><button type="button" id="toc-close">닫기 <kbd>Esc</kbd></button></div>
+    <div id="toc-list" class="toc-list"></div>
+  </dialog>
+  <dialog id="image-viewer" class="image-viewer" aria-labelledby="image-viewer-title">
+    <div class="dialog-header"><h2 id="image-viewer-title"></h2><button type="button" id="image-viewer-close">닫기 <kbd>Esc</kbd></button></div>
+    <div class="image-viewer-body"><img id="image-viewer-image" alt=""></div>
+  </dialog>
+  <div id="status" class="status" role="status"></div>
+  <noscript>이 발표자료는 JavaScript를 사용합니다. 전체 내용은 같은 폴더의 outline.md에서도 읽을 수 있습니다.</noscript>
+</body>
+</html>
