@@ -16,6 +16,7 @@ Lean 문법과 증명 상태, Mathlib 구조, 정리 탐색·활용을 조사하
 
 | 작성자 | 주제 | 자료 링크 | 공유일 |
 | --- | --- | --- | --- |
-| | | | |
+| 박채원 | Mathematics in Lean 2.1 Calculating 풀이·개념 정리 (`rw`, `calc`, `ring`) | [mil-ch2/S01_Calculating.lean](mil-ch2/S01_Calculating.lean) | 2026-10-08 |
+| 박채원 | Mathematics in Lean 2.2 Proving Identities in Algebraic Structures 풀이·개념 정리 (환·군의 공리, `have`, `apply`, `symm`) | [mil-ch2/S02_Proving_Identities_in_Algebraic_Structures.lean](mil-ch2/S02_Proving_Identities_in_Algebraic_Structures.lean) | 2026-10-09 |
 
 자료를 이 폴더에 자유로운 형식으로 작성하고, 위 표에 링크를 추가합니다.
